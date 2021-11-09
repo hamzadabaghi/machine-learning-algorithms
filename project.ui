@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="index">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>741</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Index</string>
+     </attribute>
+     <widget class="QPushButton" name="bernoulli_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>380</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bernoulli</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="gaussien_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>380</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gaussien</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="multinomial_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>380</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Multinomial</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image_test_label">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>60</y>
+        <width>331</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="field_test_bernoulli">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>410</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>26</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="field_test_gaussien">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>410</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="indent">
+       <number>26</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="field_test_Multinomial">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>410</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="indent">
+       <number>26</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="importButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>170</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>import</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="copyright">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>460</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hamza Dabaghi</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="mlp_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>380</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MLP</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="field_test_mlp">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>410</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="indent">
+       <number>26</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="field_test_Decisiontreeclassifier">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>410</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>26</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="field_test_Extratreeclassifier">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>410</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="indent">
+       <number>26</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Extratreeclassifier_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>380</y>
+        <width>131</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Extratreeclassifier</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Decisiontreeclassifier_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>374</x>
+        <y>380</y>
+        <width>131</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Decisiontreeclassifier</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Gaussien_Tab">
+     <attribute name="title">
+      <string>Modeles</string>
+     </attribute>
+     <widget class="QLabel" name="temps_execution_MLP">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>49</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_test_MLP">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>80</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>104</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_reconnaissance_MLP">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>80</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>128</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="const_label3">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>30</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>Taux de Reconnaissance des images de Tests</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="const_label1">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>30</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>Taux de Reconnaissance des images de l'apprentissage</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="const_label2">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>30</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string> Temps d'execution</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="afficherButton">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>460</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Afficher</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="const_label2_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>    Modeles</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MLP_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>MLP</string>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>12</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="BERN_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>BERN</string>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>7</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_test_BERN">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>140</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>104</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="temps_execution_BERN">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>140</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>49</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_reconnaissance_BERN">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>140</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>128</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_test_MULTI">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>200</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>104</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MULTI_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>MULTIN</string>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>2</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_reconnaissance_MULTI">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>200</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>128</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="temps_execution_MULTI">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>200</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>49</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="BINO_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>260</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>BINO</string>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>6</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_test_BINO">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>260</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>104</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="temps_execution_BINO">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>260</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>49</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_reconnaissance_BINO">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>260</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>128</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="DECT_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>320</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>DECT</string>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>6</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="temps_execution_DECT">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>320</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>49</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_reconnaissance_DECT">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>320</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>128</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_test_DECT">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>320</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>104</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="EXTT_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>380</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string>EXTT</string>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>7</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="temps_execution_EXTT">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>380</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>49</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_reconnaissance_EXTT">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>380</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>128</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="taux_test_EXTT">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>380</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border : 4px solid #000</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="indent">
+       <number>104</number>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
